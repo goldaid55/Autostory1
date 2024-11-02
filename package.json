@@ -1,0 +1,17 @@
+{
+  "name": "telegram-story-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот для публикации историй",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "telegram": "^2.19.10",
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.11",
+    "chalk": "^5.3.0"
+  }
+}
